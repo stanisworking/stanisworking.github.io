@@ -209,28 +209,29 @@
         </div>
         <div class="row">
           <div class="col-lg-5 mx-auto">
-            <form>
+            <form action="https://www.enformed.io/q7uwh9y3" method="POST" name="contact-form">
               <div class="input-group mb-2">
                 <div class="input-group-prepend">
                   <div class="input-group-text">
                     <i class="fa fa-envelope"></i>
                   </div>
                 </div>
-                <input type="text" class="form-control" id="contact-email" placeholder="Enter Email">
+                <input type="text" class="form-control" id="contact-email" placeholder="Enter Email" name="email">
               </div>
               <div class="input-group mb-2 mr-sm-2">
                 <div class="input-group-text">
                   <i class="fa fa-user"></i>
                 </div>
-                <input type="text" class="form-control" id="contact-name" placeholder="Enter Name">
+                <input type="text" class="form-control" id="contact-name" placeholder="Enter Name" name="name">
               </div>
               <div class="form-group text-white text-center">
-                <textarea class="form-control" id="contact-message" rows="5" placeholder="Feel free to share your ideas with me"></textarea>
+                <textarea class="form-control" id="contact-message" rows="5" placeholder="Feel free to share your ideas with me" name="message"></textarea>
               </div>
               <div class="form-group text-center">
-                <button type="submit" class="btn btn-info mr-2">Submit</button>
+                <button type="submit" class="btn btn-info mr-2" >Submit</button>
                 <button type="reset" class="btn btn-default">Clear</button>
               </div>
+              <input type="hidden" name="*honeypot" />
             </form>
           </div>
         </div>
