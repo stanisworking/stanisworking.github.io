@@ -30,7 +30,7 @@
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
   });
   
-  $('#contact-submit').click(function() {
+  $('#contact-form').click(function() {
     alert('click!');
   });
 
