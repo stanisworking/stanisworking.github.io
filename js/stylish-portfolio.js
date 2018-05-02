@@ -29,6 +29,10 @@
     $(".menu-toggle").removeClass("active");
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
   });
+  
+  $('#contact-submit').click(function() {
+    alert('click!');
+  });
 
   // Scroll to top button appear
   $(document).scroll(function() {
